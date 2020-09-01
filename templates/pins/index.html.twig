@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title 'find all pins' %}
+
+{% block body %}
+    <h1>{{ pluralize(pins|length, 'Pin') }}</h1>
+    <ul>
+        {% for pin in pins %}
+            <li>
+            <article>
+                {{ pin.id }}
+                {{ pin.title }}
+                {{ pin.description }}
+            </article>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
