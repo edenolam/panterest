@@ -17,7 +17,7 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/", name="app_home", methods={"GET"})
-     * @Route("/", name="app_pins_index")
+     * @Route("/", name="app_pins_index", methods={"GET"})
      * @param PinRepository $pinRepository
      * @return Response
      */
@@ -27,6 +27,15 @@ class PinsController extends AbstractController
         return $this->render('pins/index.html.twig', compact('pins'));
     }
 
+    /**
+     * @Route("/pins/{id<[0-9]+>}", name="app_pins_show", methods={"GET"})
+     * @param Pin $pin
+     * @return Response
+     */
+    public function show(Pin $pin): Response
+    {
+        return $this->render('pins/show.html.twig', compact('pin'));
+    }
 
     /**
      * @Route("/pins/create", name="app_pins_create", methods={"GET", "POST"})
@@ -54,15 +63,7 @@ class PinsController extends AbstractController
     }
 
 
-    /**
-     * @Route("/pins/{id<[0-9]+>}", name="app_pins_show", methods={"GET"})
-     * @param Pin $pin
-     * @return Response
-     */
-    public function show(Pin $pin): Response
-    {
-        return $this->render('pins/show.html.twig', compact('pin'));
-    }
+
 
 
     /**
