@@ -16,7 +16,7 @@ class PinsController extends AbstractController
 
 
     /**
-     * @Route("/", name="app_home")
+     * @Route("/", name="app_home", methods={"GET"})
      * @Route("/", name="app_pins_index")
      * @param PinRepository $pinRepository
      * @return Response
@@ -29,7 +29,7 @@ class PinsController extends AbstractController
 
 
     /**
-     * @Route("/pins/create", name="app_pins_create")
+     * @Route("/pins/create", name="app_pins_create", methods={"GET", "POST"})
      * @param Request $request
      * @param EntityManagerInterface $em
      * @return Response
@@ -93,7 +93,7 @@ class PinsController extends AbstractController
 
 
     /**
-     * @Route("/pins/{id<[0-9]+>}/delete", name="app_pins_delete", methods={"DELETE"})
+     * @Route("/pins/{id<[0-9]+>}", name="app_pins_delete", methods={"DELETE"})
      * @param Request $request
      * @param Pin $pin
      * @param EntityManagerInterface $em
