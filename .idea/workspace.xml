@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="49186345-9808-4f56-aadf-9fae5c730f02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/Timestampable.php" afterDir="false" />
+    <list default="true" id="49186345-9808-4f56-aadf-9fae5c730f02" name="Default Changelist" comment="add validation">
+      <change beforePath="$PROJECT_DIR$/.idea/panterest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panterest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PinsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PinsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Pin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -20,7 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
@@ -127,6 +136,8 @@
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1guHSba87ZjwmetY7zziCwJ97NV" />
@@ -144,7 +155,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/Php/php7.2/ext/php_xdebug.dll" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -152,8 +163,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -166,32 +187,157 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598957557985</updated>
-      <workItem from="1598957559022" duration="11746000" />
+      <workItem from="1598957559022" duration="21123000" />
+      <workItem from="1599112458499" duration="2550000" />
+      <workItem from="1599115118424" duration="3823000" />
+      <workItem from="1599208308043" duration="5345000" />
+      <workItem from="1599213985408" duration="8630000" />
     </task>
+    <task id="LOCAL-00001" summary="timestampable trait">
+      <created>1598982000363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598982000363</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add create / edit form and basic navigation">
+      <created>1598986215782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598986215782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refacto form create edit PinType.php et put to edit action">
+      <created>1598997631399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598997631399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add delete features">
+      <created>1598999112701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598999112701</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add _form partial">
+      <created>1599120096274</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599120096274</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update drelete path">
+      <created>1599210038622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599210038622</updated>
+    </task>
+    <task id="LOCAL-00007" summary="make use of u filter &amp; knptimeBundle pour ago filter">
+      <created>1599212893528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599212893528</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add flash messages">
+      <created>1599222885750</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599222885750</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add validation">
+      <created>1599225958260</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599225958260</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add bootstrapp,  use form theme">
+      <created>1599229785356</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599229785356</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="timestampable trait" />
+    <MESSAGE value="add create / edit form and basic navigation" />
+    <MESSAGE value="refacto form create edit PinType.php et put to edit action" />
+    <MESSAGE value="add delete features" />
+    <MESSAGE value="add _form partial" />
+    <MESSAGE value="update drelete path" />
+    <MESSAGE value="make use of u filter &amp; knptimeBundle pour ago filter" />
+    <MESSAGE value="add flash messages" />
+    <MESSAGE value="add validation" />
+    <MESSAGE value="add bootstrapp,  use form theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bootstrapp,  use form theme" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-277" y="-795" key="#CLI_Interpreters" timestamp="1599115095940">
+      <screen x="-657" y="-900" width="1600" height="900" />
+    </state>
+    <state x="-277" y="-795" key="#CLI_Interpreters/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1599115095940" />
     <state x="-47" y="-571" key="#Composer" timestamp="1598957587774">
       <screen x="-657" y="-900" width="1600" height="900" />
     </state>
     <state x="-47" y="-571" key="#Composer/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1598957587774" />
-    <state x="-265" y="-792" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598981556549">
+    <state x="-265" y="-792" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599113647498">
       <screen x="-657" y="-900" width="1600" height="900" />
     </state>
-    <state x="-265" y="-792" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1598981556549" />
+    <state x="-265" y="-792" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1599113647498" />
+    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1599229784671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-232" y="-864" key="CommitChangelistDialog2/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1599120095260" />
+    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.824/-676.-2160.2560.1440@0.0.1536.824" timestamp="1599229784671" />
+    <state x="-77" y="-695" key="FileChooserDialogImpl" timestamp="1599115080383">
+      <screen x="-657" y="-900" width="1600" height="900" />
+    </state>
+    <state x="-77" y="-695" key="FileChooserDialogImpl/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1599115080383" />
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1599226239224">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824/-676.-2160.2560.1440@0.0.1536.824" timestamp="1599226239224" />
     <state x="-129" y="-727" key="NewPhpClassDialog" timestamp="1598980871349">
       <screen x="-657" y="-900" width="1600" height="900" />
     </state>
     <state x="-129" y="-727" key="NewPhpClassDialog/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1598980871349" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1598981641242">
+    <state x="-356" y="-805" key="SettingsEditor" timestamp="1599115105685">
       <screen x="-657" y="-900" width="1600" height="900" />
     </state>
+    <state x="-356" y="-805" key="SettingsEditor/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1599115105685" />
+    <state width="498" height="409" key="SwitcherDM" timestamp="1599229522132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1598981641242" />
+    <state width="498" height="409" key="SwitcherDM/0.0.1536.824/-676.-2160.2560.1440@0.0.1536.824" timestamp="1599229522132" />
+    <state x="376" y="168" key="Vcs.Push.Dialog.v2" timestamp="1599229813589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-265" y="-717" key="Vcs.Push.Dialog.v2/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1598982006218" />
+    <state x="376" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.824/-676.-2160.2560.1440@0.0.1536.824" timestamp="1599229813589" />
   </component>
 </project>
