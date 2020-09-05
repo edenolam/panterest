@@ -10,13 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49186345-9808-4f56-aadf-9fae5c730f02" name="Default Changelist" comment="change font to monserrat">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200905133122.php" afterDir="false" />
+    <list default="true" id="49186345-9808-4f56-aadf-9fae5c730f02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/panterest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panterest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Pin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +144,8 @@
       <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
     </include_path>
   </component>
   <component name="ProjectId" id="1guHSba87ZjwmetY7zziCwJ97NV" />
@@ -202,7 +207,7 @@
       <workItem from="1599115118424" duration="3823000" />
       <workItem from="1599208308043" duration="5345000" />
       <workItem from="1599213985408" duration="15904000" />
-      <workItem from="1599309390401" duration="2370000" />
+      <workItem from="1599309390401" duration="4724000" />
     </task>
     <task id="LOCAL-00001" summary="timestampable trait">
       <created>1598982000363</created>
@@ -288,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599237703236</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add image name to pins table">
+      <created>1599324172787</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599324172787</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +332,8 @@
     <MESSAGE value="add bootstrapp,  use form theme" />
     <MESSAGE value="change font to monserrat" />
     <MESSAGE value="make of use webpack encore and add lang att to html" />
-    <option name="LAST_COMMIT_MESSAGE" value="make of use webpack encore and add lang att to html" />
+    <MESSAGE value="add image name to pins table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image name to pins table" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-277" y="-795" key="#CLI_Interpreters" timestamp="1599115095940">
@@ -339,11 +352,12 @@
       <screen x="-657" y="-900" width="1600" height="900" />
     </state>
     <state x="-265" y="-792" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1599113647498" />
-    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1599237702279">
+    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1599324172039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-232" y="-864" key="CommitChangelistDialog2/0.0.1536.824/-657.-900.1600.900/943.-900.1600.900@-657.-900.1600.900" timestamp="1599120095260" />
     <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.824/-676.-2160.2560.1440@0.0.1536.824" timestamp="1599237702279" />
+    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599324172039" />
     <state x="449" y="220" key="EditFileWatcherDialog" timestamp="1599234500711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
