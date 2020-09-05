@@ -4,7 +4,6 @@ namespace App\Form;
 
 use App\Entity\Pin;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Vich\UploaderBundle\Form\Type\VichImageType;
@@ -15,18 +14,13 @@ class PinType extends AbstractType
     {
         $builder
             ->add('imageFile', VichImageType::class, [
-                        'label' => 'Image (JPG or PNG file)',
-                        'required' => false,
-                        'allow_delete' => true,
+                'label' => 'Image (JPG or PNG file)',
+                'required' => false,
+                'allow_delete' => true,
                 'download_uri' => false,
-//                        'image_uri' => true,
-//                        'asset_helper' => true,
-//                        'download_label' => 'Telecharger',
-//                        'delete_label' => '...',
-                    ])
+            ])
             ->add('title')
-            ->add('description')
-        ;
+            ->add('description');
     }
 
     public function configureOptions(OptionsResolver $resolver)
